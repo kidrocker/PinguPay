@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Penguin Pay</string>
+    <string name="enter_amount_in_binary">Enter amount in binary</string>
+    <string name="complete_transaction">Send money</string>
+    <string name="enter_phone_number">Recipient phone number eg 7210…</string>
+    <string name="select_country">Select country</string>
+    <string name="enter_the_recipient_names">Recipient names</string>
+    <string name="transact">Transact</string>
+    <string name="name_error">Allowed name validation error</string>
+    <string name="phone_error">Phone number format error. Try again.</string>
+    <string name="amount_error">Invalid binaria format provided.</string>
+    <string name="transaction_success">Transaction success</string>
+    <string name="recipient_details">Recipient details</string>
+    <string name="print_receipt">Print receipt</string>
+    <string name="close">Close</string>
+    <string name="will_receive">%1$s will receive %2$s</string>
+    <string name="phone">Phone: %1$s%2$s</string>
+    <string name="currency">Currency: %1$s</string>
+    <string name="country">Country: %1$s</string>
+</resources>
