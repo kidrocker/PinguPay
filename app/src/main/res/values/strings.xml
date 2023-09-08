@@ -17,4 +17,5 @@
     <string name="phone">Phone: %1$s%2$s</string>
     <string name="currency">Currency: %1$s</string>
     <string name="country">Country: %1$s</string>
+    <string name="the_recipient_will_receive_in">The recipient will receive %1$s in %2$s</string>
 </resources>

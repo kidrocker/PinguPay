@@ -87,7 +87,7 @@ fun TransactScreenContent(
                 label = {
                     Text(text = stringResource(R.string.enter_the_recipient_names))
                 },
-                keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.Sentences)
+                keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.Words)
             )
 
             if (transact.errors.nameError != null) {
@@ -142,7 +142,11 @@ fun TransactScreenContent(
 
             if (transact.errors.amountError == null && transact.receivingAmount != null) {
 
-                Text(text = "The recipient will receive ${transact.receivingAmount}")
+                Text(text = stringResource(
+                    R.string.the_recipient_will_receive_in,
+                    transact.receivingAmount,
+                    transact.country.abbreviation
+                ))
 
             }
 
